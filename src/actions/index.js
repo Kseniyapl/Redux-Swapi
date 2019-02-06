@@ -20,3 +20,4 @@ export const getData = () => dispatch => {
     .catch(err => {dispatch({ type: FETCH, payload: err});
   });
 }
+
